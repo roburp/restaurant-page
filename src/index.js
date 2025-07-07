@@ -1,6 +1,7 @@
 import addHome from "./home.js";
 import addMenu from "./menu.js";
 import addContact from "./contact.js";
+import "./styles.css";
 
 const homeButton = document.querySelector("button#home");
 homeButton.addEventListener("click", addHome);
