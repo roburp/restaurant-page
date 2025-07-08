@@ -5,7 +5,7 @@ export default function addContact() {
   const content = document.querySelector("div#content");
 
   //h1 Contact text
-  content.append(crEl("h1", "Contact Information", "contact-header"));
+  content.append(crEl("h2", "Contact Information", "contact-header"));
 
   //div Contact Info
   const contactDiv = crEl("div", "", "contact-info");

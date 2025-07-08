@@ -5,7 +5,7 @@ export default function addHome() {
   const content = document.querySelector("div#content");
 
   //h1 Locsin Lokal
-  content.append(crEl("h1", "Locsin Lokal", "home-header"));
+  // content.append(crEl("h1", "Locsin Lokal", "home-header"));
 
   //div Welcome text
   const welcomeDiv = crEl("div", "", "welcome");

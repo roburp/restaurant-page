@@ -10,12 +10,12 @@ export default function addMenu() {
   const content = document.querySelector("div#content");
 
   //h1 Menu
-  content.append(crEl("h1", "Menu", "menu-header"));
+  content.append(crEl("h2", "Menu", "menu-header"));
 
   //menu-item-1
   const menuItem1 = crEl("div", "", "menu-item-1");
   //Item 1 Name
-  menuItem1.append(crEl("h2", "Tokwa't Truffle", "item1-header"));
+  menuItem1.append(crEl("h3", "Tokwa't Truffle", "item1-header"));
   //Item 1 Image
   const imgItem1 = document.createElement("img");
   imgItem1.src = item1Image;
@@ -35,7 +35,7 @@ export default function addMenu() {
   //menu-item-2
   const menuItem2 = crEl("div", "", "menu-item-2");
   //Item 2 Name
-  menuItem2.append(crEl("h2", "Balut Tempura with Sinamak Glaze", "item2-header"));
+  menuItem2.append(crEl("h3", "Balut Tempura with Sinamak Glaze", "item2-header"));
   //Item 2 Image
   const imgItem2 = document.createElement("img");
   imgItem2.src = item2Image;
@@ -55,7 +55,7 @@ export default function addMenu() {
   //menu-item-3
   const menuItem3 = crEl("div", "", "menu-item-3");
   //Item 3 Name
-  menuItem3.append(crEl("h2", "Wagyu Isaw Skewers", "item3-header"));
+  menuItem3.append(crEl("h3", "Wagyu Isaw Skewers", "item3-header"));
   //Item 3 Image
   const imgItem3 = document.createElement("img");
   imgItem3.src = item3Image;
@@ -75,7 +75,7 @@ export default function addMenu() {
   //menu-item-4
   const menuItem4 = crEl("div", "", "menu-item-4");
   //Item 4 Name
-  menuItem4.append(crEl("h2", "Sisig Lumpia Cups", "item4-header"));
+  menuItem4.append(crEl("h3", "Sisig Lumpia Cups", "item4-header"));
   //Item 4 Image
   const imgItem4 = document.createElement("img");
   imgItem4.src = item4Image;
@@ -95,7 +95,7 @@ export default function addMenu() {
   //menu-item-5
   const menuItem5 = crEl("div", "", "menu-item-5");
   //Item 5 Name
-  menuItem5.append(crEl("h2", "Kwek-Kwek Relleno", "item5-header"));
+  menuItem5.append(crEl("h3", "Kwek-Kwek Relleno", "item5-header"));
   //Item 5 Image
   const imgItem5 = document.createElement("img");
   imgItem5.src = item5Image;
