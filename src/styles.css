@@ -11,33 +11,31 @@ body {
 }
 
 header {
-  border: 1px solid red;
-  background-color: #333333;
 }
 
 h1 {
   color: #f0f0f0;
   text-align: center;
-  margin: 10px auto;
+  padding: 10px auto;
   font-size: 4rem;
   width: 100%;
+  background-color: #333333;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin: 10px auto;
   border: 1px solid red;
-}
+} */
 
-/* fix this part - half of nav black
 nav {
   display: flex;
   justify-content: center;
   gap: 20px;
   position: relative;
-  height: 60px;  --- total nav height 
+  height: 60px;
 }
 
 nav::before {
@@ -46,11 +44,10 @@ nav::before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 30px; -- half of nav height 
-  background-color: black;
+  height: 30px;
+  background-color: #333333;
   z-index: -1;
 }
-*/
 
 button {
   padding: 10px 20px;
@@ -68,7 +65,7 @@ button {
   gap: 10px;
   width: 100%;
   max-width: 800px;
-  padding: 0 20px;
+  padding: 0 20px 40px 20px;
   margin: 0 auto;
 }
 
@@ -79,19 +76,35 @@ button {
   color: #333333;
 }
 
-.welcome h2,
-.about h2,
 h2 {
   margin: 20px 0 10px 0;
   font-size: 2.5rem;
 }
 
-.welcome p,
-.about p {
+p {
   margin-bottom: 5px;
   font-size: 1.2rem;
   line-height: 1.3em;
   margin-bottom: 1em;
+}
+
+/* menu */
+
+.menu-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #333333;
+  border: 1px solid #6d6d6ded;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 img {
@@ -101,4 +114,9 @@ img {
   background-color: transparent;
   display: block;
   margin: 0 auto;
+}
+
+/* contact */
+.contact-info p {
+  margin-bottom: 0;
 }
